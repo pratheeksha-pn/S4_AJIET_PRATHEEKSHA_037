@@ -1,0 +1,17 @@
+import java.util.LinkedList;
+public class TestLinkedList {
+    public static void main(String[] args) {
+        LinkedList<String> icb= new LinkedList<>();
+        icb.add("Thachmiya");
+        System.out.println(icb);
+        icb.add(0,"Thanmaya");
+        System.out.println(icb);
+        icb.get(1);
+        icb.set(1,"Suruthi");
+        System.out.println(icb);
+        icb.remove(0);
+        System.out.println(icb);
+        icb.clear();
+        System.out.println(icb);
+    }
+}
